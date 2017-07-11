@@ -1,0 +1,29 @@
+{
+  "name": "svccoap",
+  "version": "1.0.0",
+  "description": "A CoAP to MQTT Bridge",
+  "main": "svccoap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/glennswest/svccoap.git"
+  },
+  "keywords": [
+    "CoAP",
+    "MQTT",
+    "IoT"
+  ],
+  "author": "Glenn S WEst",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glennswest/svccoap/issues"
+  },
+  "homepage": "https://github.com/glennswest/svccoap#readme",
+  "dependencies": {
+    "binstring": "^0.2.1",
+    "coap": "^0.21.0",
+    "mqtt": "^2.9.1"
+  }
+}
