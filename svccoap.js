@@ -10,6 +10,7 @@ client.on('connect', function(){
        console.log("Connected to mqtt\n");
        });
 
+server.listen( { type: 'udp6' } );
 server.on('request', function(req, res) {
   console.log(util.inspect(req));
   urlparts = req.url.split('/');
