@@ -15,7 +15,7 @@ server.on('request', function(req, res) {
   console.log(util.inspect(req));
   urlparts = req.url.split('/');
   switch(urlparts[1]){
-     case 'temperature':
+     case 'device':
           topic = urlparts[2];
           console.log("Topic: " + topic);
           var message = req.payload.toString();

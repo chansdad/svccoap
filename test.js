@@ -10,7 +10,7 @@ server.on('request', function(req, res) {
 
 // the default CoAP port is 5683
 server.listen(function() {
-  var req = coap.request('coap://localhost/mqtt/subject')
+  var req = coap.request('coap://localhost/device/temperature')
 
   req.on('response', function(res) {
     res.pipe(process.stdout)
